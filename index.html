@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfolio personnel de Paule Ondo, étudiante en première année d'informatique à HESTIM.">
+
+    <meta name="theme-color" content="#0b1630">
+
+    <title>Paule Ondo | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- En-tête et navigation -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Navigation principale">
+
+            <a href="#accueil" class="logo">
+                Paule<span>.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Ouvrir le menu"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+                <li><a href="#apropos" class="nav-link">À propos</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#formation" class="nav-link">Formation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Accueil -->
+        <section class="hero section" id="accueil">
+            <div class="container hero-content">
+
+                <p class="eyebrow">
+                    Bienvenue sur mon portfolio
+                </p>
+
+                <h1>
+                    Bonjour, je suis <span>Paule Ondo.</span>
+                </h1>
+
+                <h2>
+                    Étudiante en première année d'informatique à HESTIM.
+                </h2>
+
+                <p class="hero-description">
+                    Je découvre le développement web et la programmation.
+                    Mon objectif est de renforcer mes compétences en informatique
+                    et de poursuivre mon parcours vers la cybersécurité.
+                </p>
+
+                <div class="hero-buttons">
+                    <a
+                        href="https://www.linkedin.com/feed/"
+                        class="btn btn-primary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                    <a
+                        href="https://github.com/"
+                        class="btn btn-outline"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                        <span aria-hidden="true">↗</span>
+                    </a>
+
+                    <a
+                        href="mailto:ondopaule97@gmail.com"
+                        class="btn btn-outline"
+                    >
+                        M'écrire
+                        <span aria-hidden="true">↗</span>
+                    </a>
+                </div>
+
+                <a href="#apropos" class="scroll-indicator">
+                    Découvrir mon parcours
+                    <span aria-hidden="true">↓</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- À propos -->
+        <section class="section section-light" id="apropos">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Qui suis-je ?</p>
+                    <h2>À propos de moi</h2>
+                    <p>
+                        Mon parcours, mes objectifs et ma motivation.
+                    </p>
+                </div>
+
+                <div class="about-card reveal">
+                    <div class="about-marker" aria-hidden="true">PO</div>
+
+                    <div class="about-text">
+                        <h3>Apprendre, progresser et construire</h3>
+
+                        <p>
+                            Je suis étudiante en première année d'informatique
+                            à HESTIM. Je découvre actuellement le développement
+                            web, l'algorithmique et les bases de la programmation.
+                        </p>
+
+                        <p>
+                            Je souhaite renforcer mes compétences en informatique
+                            et poursuivre mon parcours vers la cybersécurité.
+                            Je suis motivée à apprendre, à progresser et à réaliser
+                            de nouveaux projets.
+                        </p>
+
+                        <div class="language-info">
+                            <span class="info-label">Langues</span>
+                            <p>Français · Anglais en cours d'apprentissage</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Compétences -->
+        <section class="section" id="competences">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Mes acquis</p>
+                    <h2>Compétences</h2>
+                    <p>
+                        Les notions que je découvre et que je développe
+                        au cours de mon apprentissage.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>
+                            Notions de base et création de pages web.
+                        </p>
+                        <span class="skill-level">Notions de base</span>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon" aria-hidden="true">{ }</div>
+                        <h3>Algorithmique</h3>
+                        <p>
+                            Notions de base, variables, instructions et calculs.
+                        </p>
+                        <span class="skill-level">Notions de base</span>
+                    </article>
+
+                    <article class="skill-card reveal">
+                        <div class="skill-icon" aria-hidden="true">W</div>
+                        <h3>Microsoft Word</h3>
+                        <p>
+                            Rédaction et mise en forme de documents.
+                        </p>
+                        <span class="skill-level">Compétence de base</span>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projets et travaux d'apprentissage -->
+        <section class="section section-light" id="projets">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Ma pratique</p>
+                    <h2>Projets et apprentissages</h2>
+                    <p>
+                        Des domaines de pratique liés aux notions que j'étudie.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-number">01</span>
+                            <span class="project-tag">HTML</span>
+                        </div>
+
+                        <h3>Création de pages web</h3>
+
+                        <p>
+                            Découverte des bases du HTML et de la structure
+                            des pages web à travers les exercices d'apprentissage.
+                        </p>
+
+                        <div class="project-footer">
+                            <span>Apprentissage en cours</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <span class="project-number">02</span>
+                            <span class="project-tag">Algorithmique</span>
+                        </div>
+
+                        <h3>Exercices d'algorithmique</h3>
+
+                        <p>
+                            Apprentissage des variables, des instructions
+                            et des calculs pour comprendre la logique
+                            de la programmation.
+                        </p>
+
+                        <div class="project-footer">
+                            <span>Apprentissage en cours</span>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="projects-note reveal">
+                    Ces éléments présentent mes domaines de pratique.
+                    Aucun projet professionnel ou personnel supplémentaire
+                    n'est revendiqué.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Formation -->
+        <section class="section" id="formation">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Mon parcours scolaire</p>
+                    <h2>Formation</h2>
+                    <p>
+                        Ma formation actuelle en informatique.
+                    </p>
+                </div>
+
+                <div class="timeline reveal">
+                    <div class="timeline-dot" aria-hidden="true"></div>
+
+                    <article class="formation-card">
+                        <span class="formation-date">2026 – 2027</span>
+
+                        <h3>Première année préparatoire d'ingénieur</h3>
+
+                        <p class="formation-school">HESTIM</p>
+
+                        <p>
+                            Informatique et intelligence artificielle.
+                        </p>
+
+                        <span class="formation-status">
+                            Formation en cours
+                        </span>
+                    </article>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Restons en contact</p>
+                    <h2>Contact</h2>
+                    <p>
+                        Pour échanger avec moi, vous pouvez me retrouver
+                        sur les plateformes suivantes ou m'envoyer un e-mail.
+                    </p>
+                </div>
+
+                <div class="contact-grid reveal">
+
+                    <a
+                        href="mailto:ondopaule97@gmail.com"
+                        class="contact-card"
+                    >
+                        <span class="contact-icon" aria-hidden="true">@</span>
+                        <span class="contact-label">E-mail</span>
+                        <span class="contact-value">ondopaule97@gmail.com</span>
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/feed/"
+                        class="contact-card"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-icon" aria-hidden="true">in</span>
+                        <span class="contact-label">LinkedIn</span>
+                        <span class="contact-value">Voir LinkedIn ↗</span>
+                    </a>
+
+                    <a
+                        href="https://github.com/"
+                        class="contact-card"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-icon" aria-hidden="true">&lt;/&gt;</span>
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value">Voir GitHub ↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#accueil" class="logo footer-logo">
+                Paule<span>.</span>
+            </a>
+
+            <p>
+                © <span id="current-year"></span> Paule Ondo.
+                Tous droits réservés.
+            </p>
+
+            <a href="#accueil" class="back-to-top">
+                Retour en haut ↑
+            </a>
+        </div>
+    </footer>
+
+</body>
+</html>
